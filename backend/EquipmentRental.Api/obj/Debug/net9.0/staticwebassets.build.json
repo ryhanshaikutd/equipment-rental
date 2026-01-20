@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aFQI792bzW06VdoVOH/GtA/2AK+wSZwyHD2lhk2urlQ=",
+  "Source": "EquipmentRental.Api",
+  "BasePath": "_content/EquipmentRental.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
