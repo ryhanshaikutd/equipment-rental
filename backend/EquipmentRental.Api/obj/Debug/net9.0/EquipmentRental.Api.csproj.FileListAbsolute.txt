@@ -31,3 +31,4 @@
 /Users/ryhanshaik/Desktop/equipment-rental/backend/EquipmentRental.Api/obj/Debug/net9.0/EquipmentRental.Api.pdb
 /Users/ryhanshaik/Desktop/equipment-rental/backend/EquipmentRental.Api/obj/Debug/net9.0/EquipmentRental.Api.genruntimeconfig.cache
 /Users/ryhanshaik/Desktop/equipment-rental/backend/EquipmentRental.Api/obj/Debug/net9.0/ref/EquipmentRental.Api.dll
+/Users/ryhanshaik/Desktop/equipment-rental/backend/EquipmentRental.Api/obj/Debug/net9.0/EquipmentRental.Api.sourcelink.json
