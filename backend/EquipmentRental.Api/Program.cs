@@ -3,13 +3,17 @@ using System.Net.Http.Json;
 var builder = WebApplication.CreateBuilder(args);
 
 
-var allowedOrigin = "http://localhost:5174";
+var allowedOrigins = new[]
+{
+    "http://localhost:5174",
+    "https://equipment-rental-frontend.netlify.app"
+};
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("FrontendDev", policy =>
+    options.AddPolicy("Frontend", policy =>
     {
-        policy.WithOrigins(allowedOrigin)
+        policy.WithOrigins(allowedOrigins)
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -19,7 +23,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
-app.UseCors("FrontendDev");
+app.UseCors("Frontend");
 
 
 if (app.Environment.IsDevelopment())
